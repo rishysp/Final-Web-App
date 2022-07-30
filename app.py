@@ -1,5 +1,4 @@
 from flask import Flask,render_template,request
-import cv2
 from keras.applications.densenet import DenseNet121
 import numpy as np
 from keras.models import Model
